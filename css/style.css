@@ -31,7 +31,7 @@ header{
 }
 
 main{
-    padding: 50px;
+    padding: 30px;
 }
 
 .box{
@@ -65,20 +65,15 @@ main{
 .main-header{
     border-bottom: 2px solid #f6f8f9;
     padding-bottom: 5px;
+    margin-bottom: 25px;
 }
 
-.new-task{
+.task{
     margin-left: 25px;
-    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
-.quarterly{
-    margin-left: 25px;
-}
-
-.editorial{
-    background-color: #47adf1;
-    border: none;
+.pill-button{
     border-radius: 16px;
     color: white;
     font-size: 7px;
@@ -98,4 +93,21 @@ main{
 .check{
     border: 1px solid green;
     color: green;
+}
+
+.cross{
+    border: 1px solid red;
+    color: red;
+}
+
+.blue{
+    background-color: #47adf1;
+}
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color: #61bea7;
 }
