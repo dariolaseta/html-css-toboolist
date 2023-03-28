@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -19,4 +23,42 @@ img{
 
 header{
     padding-left: 10px;
+    background-color: white;
+}
+
+main{
+    padding: 50px;
+}
+
+.box{
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    border-radius: 1%;
+    background-color: white;
+}
+
+.button1{
+    background-color: #47adf1;
+    border: none;
+    border-radius: 8%;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 10px 0 0 35px;
+}
+
+.button2{
+    background-color: #ffffff;
+    border-radius: 8%;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 10px 0 0 1px;
+}
+
+.main-header{
+    border-bottom: 2px solid #f6f8f9;
+    padding-bottom: 5px;
 }
