@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 body{
     background-color: #f6f8f9;
 }
@@ -61,4 +65,37 @@ main{
 .main-header{
     border-bottom: 2px solid #f6f8f9;
     padding-bottom: 5px;
+}
+
+.new-task{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.quarterly{
+    margin-left: 25px;
+}
+
+.editorial{
+    background-color: #47adf1;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 7px;
+    padding: 5px 10px;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    font-size: 6px;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.check{
+    border: 1px solid green;
+    color: green;
 }
