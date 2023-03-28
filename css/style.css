@@ -11,6 +11,7 @@ ul{
 
 li{
     margin: 15px;
+    font-size: 25px;
 }
 
 body{
@@ -20,10 +21,13 @@ body{
 h1{
     display: inline-block;
     vertical-align: middle;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .font{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
 }
 
 img{
@@ -31,7 +35,7 @@ img{
 }
 
 header{
-    padding-left: 10px;
+    padding-left: 20px;
     background-color: white;
 }
 
@@ -40,8 +44,8 @@ main{
 }
 
 .box{
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 800px;
     margin: auto;
     border-radius: 1%;
     background-color: white;
@@ -52,9 +56,9 @@ main{
     border: none;
     border-radius: 8%;
     color: white;
-    font-size: 10px;
+    font-size: 17px;
     padding: 5px 10px;
-    margin: 10px 0 0 35px;
+    margin: 15px 0 0 55px;
 }
 
 .button2{
@@ -62,33 +66,33 @@ main{
     border-radius: 8%;
     border: 1px solid lightgrey;
     color: lightgrey;
-    font-size: 10px;
+    font-size: 17px;
     padding: 5px 10px;
     margin: 10px 0 0 1px;
 }
 
 .main-header{
     border-bottom: 2px solid #f6f8f9;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-bottom: 25px;
 }
 
 .task{
     margin-left: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .pill-button{
     border-radius: 16px;
     color: white;
-    font-size: 7px;
+    font-size: 13px;
     padding: 5px 10px;
 }
 
 .circle{
-    width: 10px;
-    height: 10px;
-    font-size: 6px;
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
     margin-right: 5px;
     border-radius: 50%;
     text-align: center;
